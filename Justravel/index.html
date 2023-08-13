@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justravel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <!--SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION START -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">jus<span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#book">Rezervasyon</a>
+            <a href="#packages">Paketler</a>
+            <a href="#services">Servisler</a>
+            <a href="#gallery">Galeri</a>
+            <a href="#review">İnceleme</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Ara">
+            <label for="search-bar-" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+
+    <!-- LOGIN FORM CONTAINER -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>GİRİŞ</h3>
+            <input type="email" class="box" placeholder="E-postanızı Giriniz">
+            <input type="password" class="box" placeholder="Parolanızı Giriniz">
+            <input type="submit" value="Giriş yap" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Beni hatırla</label>
+            <p>Parolayı unuttum? <a href="#">Buraya tıklayınız</a></p>
+            <p>Hesabınız yok mu? <a href="#">Kayıt ol</a></p>
+        </form>
+    </div>
+
+    <!-- LOGIN FORM CONTAINER END -->
+
+    <!-- HOME SECTION START -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Bizimle yeni yerler keşfet.</h3>
+            <p>İşler cebinizi, maceralar ruhunuzu doldurur.</p>
+            <a href="#" class="btn">Daha fazla keşfet</a>
+        </div>
+
+        <!-- <div class="controls">
+            <span class="vid-btn active" data-src="./images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="./images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="./images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div> -->
+        <div class="owl-main owl-carousel owl-theme">
+            <div class="item"><video autoplay muted loop src="./images/vid-1.mp4"></video></div>
+            <div class="item"><video autoplay muted loop src="./images/vid-2.mp4"></video></div>
+            <div class="item"><video autoplay muted loop src="./images/vid-3.mp4"></video></div>
+            <div class="item"><video autoplay muted loop src="./images/vid-4.mp4"></video></div>
+            <div class="item"><video autoplay muted loop src="./images/vid-5.mp4"></video></div>
+        </div>
+    </section>
+
+
+    <!-- HOME SECTION END -->
+
+    <!-- BOOK SECTION START -->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>Ş</span>
+            <span>İ</span>
+            <span>M</span>
+            <span>D</span>
+            <span>İ</span>
+            <span class="space"></span>
+            <span>K</span>
+            <span>E</span>
+            <span>Ş</span>
+            <span>F</span>
+            <span>E</span>
+            <span>T</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>Nereye</h3>
+                    <input type="text" placeholder="Gidilecek yer">
+                </div>
+                <div class="inputBox">
+                    <h3>Kaç kişi</h3>
+                    <input type="number" placeholder="Kişi sayısı">
+                </div>
+                <div class="inputBox">
+                    <h3>Geliş Tarihi</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Gidiş Tarihi</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Yer ayır">
+            </form>
+        </div>
+
+    </section>
+
+    <!-- BOOK SECTION END -->
+
+    <!-- PACKAGES SECTION START -->
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>K</span>
+            <span>E</span>
+            <span>T</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> MUMBAİ </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> HAWAİİ </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> PARİS </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> TOKYO </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+            <div class="box">
+
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> EGYPT </h3>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, beatae voluptatem nemo eaque
+                        porro hic error esse est vitae adipisci in impedit, iusto voluptates officia. Omnis magnam amet
+                        doloremque dolorem!</P>
+                    <div class="stars">
+
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">rezervasyon yap</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PACKAGES SECTION END -->
+
+    <!-- SERVICES SECTION START -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>İ</span>
+            <span>S</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Uygun fiyatlı oteller</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Yemekler ve İçecekler</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Güvenli Kılavuz</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Dünya Çapında</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Hızlı ulaşım</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Maceralar</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe expedita, quia cum totam qui quae
+                    repellendus neque id dolore reprehenderit magni quod optio voluptatibus doloremque. Laudantium
+                    blanditiis quam quae eos.</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES SECTION END -->
+
+    <!-- GALLERY SEVTION START -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>İ</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Muhteşem Yerler</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos distinctio maiores vero
+                        soluta quibusdam, aspernatur ullam architecto, recusandae molestiae similique sapiente fugiat.
+                        Natus delectus quam provident? Tenetur, fugiat quos?</p>
+                    <a href="#" class="btn">Daha fazla...</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- GALLERY SECTION END -->
+
+
+
+
+    <!-- REVIEW SECTION STARTS -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>İ</span>
+            <span>N</span>
+            <span>C</span>
+            <span>E</span>
+            <span>L</span>
+            <span>E</span>
+            <span>M</span>
+            <span>E</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.png" alt="">
+                        <h3>John Deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt inventore
+                            deserunt sint vitae iste, quibusdam veniam, aliquam necessitatibus facere excepturi!
+                            Doloremque quae, quia autem minima quidem deleniti dignissimos impedit.</p>
+                        <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.png" alt="">
+                        <h3>John Deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt inventore
+                            deserunt sint vitae iste, quibusdam veniam, aliquam necessitatibus facere excepturi!
+                            Doloremque quae, quia autem minima quidem deleniti dignissimos impedit.</p>
+                        <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.png" alt="">
+                        <h3>John Deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt inventore
+                            deserunt sint vitae iste, quibusdam veniam, aliquam necessitatibus facere excepturi!
+                            Doloremque quae, quia autem minima quidem deleniti dignissimos impedit.</p>
+                        <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.png" alt="">
+                        <h3>John Deo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nesciunt inventore
+                            deserunt sint vitae iste, quibusdam veniam, aliquam necessitatibus facere excepturi!
+                            Doloremque quae, quia autem minima quidem deleniti dignissimos impedit.</p>
+                        <div class="stars">
+
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- REVIEW SECTION END -->
+
+    <!-- CONTACT SECTION STARTS -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>İ</span>
+            <span>L</span>
+            <span>E</span>
+            <span>T</span>
+            <span>İ</span>
+            <span>Ş</span>
+            <span>İ</span>
+            <span>M</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="İsim">
+                    <input type="email" placeholder="E-posta">
+                </div>
+                <div class="inputBox">
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    <input type="text" placeholder="Konu">
+                </div>
+                <textarea placeholder="Mesajınız" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Gönder">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT SECTION END -->
+
+
+    <!-- BRAND SECTION STARTS -->
+
+    <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"></div> <img src="images/1.jpg" alt="">
+                <div class="swiper-slide"></div> <img src="images/2.jpg" alt="">
+                <div class="swiper-slide"></div> <img src="images/3.jpg" alt="">
+                <div class="swiper-slide"></div> <img src="images/4.jpg" alt="">
+                <div class="swiper-slide"></div> <img src="images/5.jpg" alt="">
+                <div class="swiper-slide"></div> <img src="images/6.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRAND SECTION END -->
+
+
+
+    <!-- FOOTER SECTION STARTS -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Hakkımızda</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse placeat sunt at beatae maiores labore
+                    numquam quibusdam atque iusto perspiciatis nisi qui, dolor voluptatem eum aspernatur ratione id
+                    libero iure.</p>
+            </div>
+            <div class="box">
+                <h3>Şubelerimiz</h3>
+                <a href="#">TURKEY</a>
+                <a href="#">USA</a>
+                <a href="#">FRANCE</a>
+                <a href="#">JAPAN</a>
+            </div>
+            <div class="box">
+                <h3>Hızlı erişim</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Bizi takip et</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <h1 class="credit"> created by <span> OAC Company</span> | all rights reserved.</h1>
+
+    </section>
+
+
+
+    <!-- FOOTER SECTION END -->
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
